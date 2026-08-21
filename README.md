@@ -1,40 +1,116 @@
 # -Statistical-Arbitrage-Research
-Quant Finance Research Project
-# Statistical Arbitrage in Cryptocurrency Markets — Quantitative Finance Research Project
+# Statistical Arbitrage in Cryptocurrency Markets
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yomisys/crypto-stat-arb/blob/main/crypto_stat_arb.ipynb#scrollTo=W1FXDlZHxw75)
+### Quantitative Finance Research Project
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK)
 
 ---
 
-## What this is
+## Project Overview
 
-A complete quantitative research system that tests momentum and mean-reversion strategies across the top 25 cryptocurrencies.
+This project investigates whether momentum and mean-reversion effects can
+generate statistically significant returns in cryptocurrency markets.
 
-| Component | Description |
+The research uses daily OHLCV data from the top 25 cryptocurrencies and
+evaluates multiple trading signals through a systematic backtesting framework.
+
+---
+
+## Research Question
+
+> Do momentum and mean-reversion signals provide economically and
+> statistically significant returns in cryptocurrency markets?
+
+---
+
+## Research Approach
+
+### 01 — Data
+
+- 3+ years of daily OHLCV data
+- Cryptocurrency universe defined using ...
+- Data sourced from ...
+- Cached locally using Parquet
+
+### 02 — Signal Construction
+
+The research evaluates:
+
+- Momentum signals
+- Mean-reversion signals
+- Cross-sectional signals
+- Volume-weighted signals
+- Pairs-trading signals
+
+### 03 — Portfolio Construction
+
+Signals are converted into long-short portfolios using:
+
+- Quintile ranking
+- Equal-weighted portfolios
+- Inverse-volatility weighting
+- Transaction-cost assumptions
+
+### 04 — Performance Evaluation
+
+Strategies are evaluated using:
+
+| Metric | Purpose |
 |---|---|
-| **Data** | 3+ years daily OHLCV data |
-| **Signals** | Momentum and reversal signals |
-| **Backtest** | Long-short quintile portfolio |
-| **Evaluation** | Sharpe ratio, alpha t-stat, maximum drawdown |
-| **Combination** | Walk-forward portfolio construction |
+| Sharpe Ratio | Risk-adjusted performance |
+| Alpha | Excess return |
+| Alpha t-statistic | Statistical significance |
+| Maximum Drawdown | Downside risk |
+| Turnover | Trading intensity |
 
-## How to run
+---
 
-Click the **Open in Colab** badge above, then:
+## Results
 
-**Runtime → Run all**
+### Key Findings
 
-## Repo structure
+**Momentum**
+
+Momentum produced positive risk-adjusted returns over the
+14–30 day holding horizon.
+
+**Mean Reversion**
+
+Short-horizon reversal signals showed weaker performance and were
+more sensitive to transaction costs.
+
+**Portfolio Combination**
+
+Combining signals reduced dependence on any individual strategy and
+produced more stable performance.
+
+> **Full results and statistical tests are available in the notebook.**
+
+---
+
+## Methodology
+
+The research follows a train/validation framework to reduce the risk of
+overfitting.
 
 ```text
-project/
-├── notebook.ipynb
-├── config.py
-├── data/
-│   └── data_pipeline.py
-├── signals/
-│   ├── momentum.py
-│   └── reversal.py
-├── backtester.py
-├── evaluator.py
-└── requirements.txt
+Historical Data
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Signal Construction
+      │
+      ▼
+Portfolio Formation
+      │
+      ▼
+Backtesting
+      │
+      ▼
+Statistical Evaluation
+      │
+      ▼
+Walk-Forward Combination
