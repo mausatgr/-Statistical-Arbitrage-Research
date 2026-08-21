@@ -2,7 +2,7 @@
 Quant Finance Research Project
 # Statistical Arbitrage in Cryptocurrency Markets — Quantitative Finance Research Project
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yomisys/crypto-stat-arb/blob/main/crypto_stat_arb.ipynb#scrollTo=W1FXDlZHxw75)
 
 ---
 
