@@ -62,7 +62,6 @@ Strategies are evaluated using:
 | Alpha | Excess return |
 | Alpha t-statistic | Statistical significance |
 | Maximum Drawdown | Downside risk |
-| Turnover | Trading intensity |
 
 ---
 
