@@ -3,7 +3,7 @@
 
 ### Quantitative Finance Research Project
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/121av8iZ9YOZzSjFkknD2bVE4P5Cf-Um7#scrollTo=W1FXDlZHxw75)
 
 ---
 
