@@ -3,7 +3,7 @@
 
 ### Quantitative Finance Research Project
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/121av8iZ9YOZzSjFkknD2bVE4P5Cf-Um7#scrollTo=W1FXDlZHxw75) The link is publicly viewable
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/121av8iZ9YOZzSjFkknD2bVE4P5Cf-Um7#scrollTo=W1FXDlZHxw75) This link is publicly viewable
 
 ---
 
@@ -84,7 +84,7 @@ more sensitive to transaction costs.
 Combining signals reduced dependence on any individual strategy and
 produced more stable performance.
 
-> **Full results and statistical tests are available in the notebook.**
+> **Full results and statistical tests are available in the notebook (Publicly viewable).**
 
 ---
 
