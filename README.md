@@ -70,19 +70,17 @@ Strategies are evaluated using:
 ### Key Findings
 
 **Momentum**
-
-Momentum produced positive risk-adjusted returns over the
-14–30 day holding horizon.
+Medium- and long-horizon momentum generated the strongest historical performance. The best individual strategy was 30-day volume-weighted momentum (`vwmom30d`), which produced a 44.92% annualised net return and a 0.74 Sharpe ratio after 20 bps one-way transaction costs. However, its Sharpe ratio declined from 1.95 during the 2021–2022 training period to 0.14 during the 2023–2025 validation period, representing approximately 92.8% Sharpe decay.
 
 **Mean Reversion**
 
-Short-horizon reversal signals showed weaker performance and were
-more sensitive to transaction costs.
+Short-horizon reversal and statistical-arbitrage strategies performed poorly after transaction costs. Their Sharpe ratios ranged from -0.57 to -0.88, while maximum drawdowns ranged from approximately -95.90% to -99.85%. The results suggest that the potential gross mean-reversion effect was insufficient to overcome adverse returns and transaction costs under the 20 bps market-order assumption.
 
 **Portfolio Combination**
 
-Combining signals reduced dependence on any individual strategy and
-produced more stable performance.
+**Portfolio Combination**
+
+Quarterly walk-forward combinations produced more credible out-of-sample results than relying on a single full-sample winner. The inverse-volatility portfolio achieved a 31.85% annualised return, a 0.64 Sharpe ratio, a -62.59% maximum drawdown and a 50.8% win rate. The equal-weighted portfolio achieved a 31.23% annualised return and a 0.63 Sharpe ratio. The Sharpe-weighted portfolio performed less effectively, with a 0.41 Sharpe ratio and a -69.82% maximum drawdown.
 
 > **Full results and statistical tests are available in the notebook (Publicly viewable).**
 
