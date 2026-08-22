@@ -29,8 +29,8 @@ evaluates multiple trading signals through a systematic backtesting framework.
 ### 01 — Data
 
 - 3+ years of daily OHLCV data
-- Cryptocurrency universe defined using ...
-- Data sourced from ...
+- Cryptocurrency universe defined using 25 Cryptocurrencies
+- Data sourced from CCXT/Binance
 - Cached locally using Parquet
 
 ### 02 — Signal Construction
