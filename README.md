@@ -75,7 +75,6 @@ Medium- and long-horizon momentum generated the strongest historical performance
 
 Short-horizon reversal and statistical-arbitrage strategies performed poorly after transaction costs. Their Sharpe ratios ranged from -0.57 to -0.88, while maximum drawdowns ranged from approximately -95.90% to -99.85%. The results suggest that the potential gross mean-reversion effect was insufficient to overcome adverse returns and transaction costs under the 20 bps market-order assumption.
 
-**Portfolio Combination**
 
 **Portfolio Combination**
 
