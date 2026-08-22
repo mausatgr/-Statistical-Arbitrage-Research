@@ -1,4 +1,3 @@
-# Statistical-Arbitrage-Research
 # Statistical Arbitrage in Cryptocurrency Markets
 
 ### Quantitative Finance Research Project
