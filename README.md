@@ -3,11 +3,11 @@
 
 ### Quantitative Finance Research Project
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/121av8iZ9YOZzSjFkknD2bVE4P5Cf-Um7#scrollTo=W1FXDlZHxw75)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/121av8iZ9YOZzSjFkknD2bVE4P5Cf-Um7#scrollTo=W1FXDlZHxw75) The link is publicly viewable
 
 ---
 
-## Project Overview
+## Project Overvie
 
 This project investigates whether momentum and mean-reversion effects can
 generate statistically significant returns in cryptocurrency markets.
